@@ -3,122 +3,153 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray"
     android:columnCount="2"
     android:rowCount="4"
+    android:useDefaultMargins="true"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.jc321013.myapplication.MainActivity"
     tools:showIn="@layout/activity_main">
 
     <TextView
-        android:layout_columnWeight="1"
-        android:layout_rowWeight="1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_width="194dp"
+        android:layout_height="82dp"
         android:layout_below="@+id/appBarLayout"
+        android:layout_columnWeight="1"
         android:layout_marginTop="23dp"
+        android:layout_rowWeight="1"
+        android:background="@color/colorPrimary"
+        android:elevation="5dp"
+        android:gravity="end"
+        android:padding="15dp"
         android:text="Centimeter"
         android:textAppearance="@android:style/TextAppearance.Large"
-        android:textSize="30sp"
-        android:id="@+id/textView5" />
+        android:textSize="30sp" />
 
     <EditText
-        android:layout_columnWeight="1"
-        android:layout_rowWeight="1"
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/textView5"
         android:layout_alignBottom="@+id/textView5"
+        android:layout_alignParentEnd="true"
+        android:layout_columnWeight="10"
+        android:layout_rowWeight="1"
+        android:background="@android:color/white"
+        android:elevation="5dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:layout_alignParentEnd="true" />
+        android:padding="12dp" />
 
     <TextView
-        android:layout_columnWeight="1"
-        android:layout_rowWeight="1"
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="76dp"
         android:layout_alignStart="@+id/textView5"
         android:layout_below="@+id/editText"
+        android:layout_columnWeight="1"
         android:layout_marginTop="36dp"
+        android:layout_rowWeight="1"
         android:layout_toStartOf="@+id/editText"
+        android:background="@color/colorPrimary"
+        android:elevation="5dp"
+        android:gravity="end"
+        android:padding="15dp"
         android:text="Meter"
         android:textAppearance="@android:style/TextAppearance.Large"
         android:textSize="30sp" />
 
     <EditText
-        android:layout_columnWeight="1"
-        android:layout_rowWeight="1"
         android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/textView7"
+        android:layout_columnWeight="10"
+        android:layout_rowWeight="1"
+        android:background="@android:color/white"
+        android:elevation="5dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:layout_alignParentEnd="true" />
+        android:padding="12dp" />
 
     <TextView
-        android:layout_columnWeight="1"
-        android:layout_rowWeight="1"
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/textView7"
         android:layout_below="@+id/editText2"
+        android:layout_columnWeight="1"
         android:layout_marginTop="26dp"
+        android:layout_rowWeight="1"
+        android:background="@color/colorPrimary"
+        android:elevation="5dp"
+        android:gravity="end"
+        android:padding="15dp"
         android:text="Inches"
         android:textAppearance="@android:style/TextAppearance.Large"
         android:textSize="30sp" />
 
     <EditText
-        android:layout_columnWeight="1"
-        android:layout_rowWeight="1"
         android:id="@+id/editText3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/textView8"
+        android:layout_columnWeight="10"
+        android:layout_rowWeight="1"
+        android:background="@android:color/white"
+        android:elevation="5dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:layout_alignParentEnd="true" />
+        android:padding="12dp" />
 
     <TextView
-        android:layout_columnWeight="1"
-        android:layout_rowWeight="1"
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView8"
         android:layout_alignStart="@+id/textView8"
         android:layout_below="@+id/editText3"
+        android:layout_columnWeight="1"
         android:layout_marginTop="26dp"
+        android:layout_rowWeight="1"
+        android:background="@color/colorPrimary"
+        android:elevation="5dp"
+        android:gravity="end"
+        android:padding="15dp"
         android:text="Foot"
         android:textAppearance="@android:style/TextAppearance.Large"
-        android:textSize="30sp"
-        android:layout_alignEnd="@+id/textView8" />
+        android:textSize="30sp" />
 
     <EditText
-        android:layout_columnWeight="1"
-        android:layout_rowWeight="1"
         android:id="@+id/editText4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView9"
+        android:layout_alignParentEnd="true"
+        android:layout_columnWeight="10"
+        android:layout_rowWeight="1"
+        android:background="@android:color/white"
+        android:elevation="5dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:layout_alignParentEnd="true" />
+        android:padding="12dp" />
 
     <Button
-        android:layout_columnWeight="1"
-        android:layout_rowWeight="1"
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/editText4"
+        android:layout_centerHorizontal="true"
+        android:layout_columnWeight="1"
         android:layout_marginTop="69dp"
+        android:layout_rowWeight="1"
+        android:contextClickable="false"
         android:text="Submit"
         android:textAppearance="@android:style/TextAppearance.Large"
-        android:textSize="30sp"
-        android:layout_below="@+id/editText4"
-        android:layout_centerHorizontal="true" />
+        android:textSize="30sp" />
 
 </GridLayout>
