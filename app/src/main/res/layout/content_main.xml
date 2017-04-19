@@ -14,8 +14,8 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="194dp"
-        android:layout_height="82dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/appBarLayout"
         android:layout_columnWeight="1"
         android:layout_marginTop="23dp"
@@ -46,7 +46,7 @@
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
-        android:layout_height="76dp"
+        android:layout_height="wrap_content"
         android:layout_alignStart="@+id/textView5"
         android:layout_below="@+id/editText"
         android:layout_columnWeight="1"
